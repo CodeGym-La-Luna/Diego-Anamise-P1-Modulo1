@@ -18,7 +18,7 @@ public class MenuApp {
         System.out.println("4. Análisis estadístico");
 
         int option = scanner.nextInt();
-        scanner.nextLine(); // Consumir nueva línea
+        scanner.nextLine();
 
         try {
             if (option == 1) {
@@ -35,7 +35,7 @@ public class MenuApp {
                     System.out.println("El archivo de entrada no existe.");
                     return;
                 }
-                if (!validator.isValidKey(key, cipher.ALPHABET.length())) {
+                if (!validator.isValidKey(key, CaesarCipher.getAlphabet().length())) {
                     System.out.println("La clave es inválida.");
                     return;
                 }
@@ -59,7 +59,7 @@ public class MenuApp {
                     System.out.println("El archivo de entrada no existe.");
                     return;
                 }
-                if (!validator.isValidKey(key, CaesarCipher.ALPHABET.length())) {
+                if (!validator.isValidKey(key, CaesarCipher.getAlphabet().length())) {
                     System.out.println("La clave es inválida.");
                     return;
                 }

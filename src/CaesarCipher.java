@@ -1,6 +1,10 @@
 public class CaesarCipher {
 
-    public static final String ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    private static final String ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    public static String getAlphabet() {
+        return ALPHABET;
+    }
 
     // Método para cifrar
     public String encrypt(String text, int shift) {
@@ -11,7 +15,7 @@ public class CaesarCipher {
                 int shiftedPosition = (position + shift) % ALPHABET.length();
                 encrypted.append(ALPHABET.charAt(shiftedPosition));
             } else {
-                encrypted.append(character); // Si el carácter no está en el alfabeto, no se modifica
+                encrypted.append(character);
             }
         }
         return encrypted.toString();

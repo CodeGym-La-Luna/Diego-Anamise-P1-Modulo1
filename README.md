@@ -40,27 +40,27 @@ Pasos:
 Descripción: Descifra el contenido de un archivo que fue cifrado con el cifrado César usando la misma clave que se usó para cifrarlo.
 Pasos:
 Selecciona la opción "2. Descifrar".
-Introduce el nombre del archivo cifrado (archivo de entrada).
-Introduce el nombre del archivo donde se guardará el texto descifrado (archivo de salida).
-Proporciona la clave que se usó para cifrar el texto (la misma clave numérica).
-El archivo descifrado se guardará en la ubicación especificada
+    1. Introduce el nombre del archivo cifrado (archivo de entrada).
+    2. Introduce el nombre del archivo donde se guardará el texto descifrado (archivo de salida).
+    3. Proporciona la clave que se usó para cifrar el texto (la misma clave numérica).
+    4. El archivo descifrado se guardará en la ubicación especificada
 
 
 3. Descifrar mediante Fuerza Bruta
 Descripción: Si no conoces la clave, esta opción prueba todas las posibles claves (del 1 al 25) y te muestra cada resultado posible en la consola.
 Pasos:
-Selecciona la opción "3. Fuerza bruta".
-Introduce el nombre del archivo cifrado que deseas descifrar.
-El programa intentará descifrar el archivo probando todas las claves posibles y te mostrará el resultado de cada intento en la consola.
-Puedes revisar los resultados e identificar cuál es el correcto
+    1. Selecciona la opción "3. Fuerza bruta".
+    2. Introduce el nombre del archivo cifrado que deseas descifrar.
+    3. El programa intentará descifrar el archivo probando todas las claves posibles y te mostrará el resultado de cada intento en la consola.
+    4. Puedes revisar los resultados e identificar cuál es el correcto
 
 4. Descifrar mediante Análisis Estadístico
 Descripción: Si no tienes la clave y quieres un descifrado más preciso, puedes usar el análisis estadístico, que compara la frecuencia de letras en el texto cifrado con otro texto representativo (por ejemplo, otro texto del mismo autor).
 Pasos:
-Selecciona la opción "4. Análisis estadístico".
-Introduce el nombre del archivo cifrado que deseas descifrar.
-Introduce el nombre de un archivo con texto representativo que tenga características similares al texto cifrado.
-El programa calculará el desplazamiento más probable y mostrará el texto descifrado en la consola.
+    1. Selecciona la opción "4. Análisis estadístico".
+    2. Introduce el nombre del archivo cifrado que deseas descifrar.
+    3. Introduce el nombre de un archivo con texto representativo que tenga características similares al texto cifrado.
+    4. El programa calculará el desplazamiento más probable y mostrará el texto descifrado en la consola.
 
 
 
